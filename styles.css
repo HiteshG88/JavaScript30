@@ -1,0 +1,89 @@
+body {
+  color: #f0f5f9;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: linear-gradient(
+      135deg,
+      #090a0a 21px,
+      #393e46 22px,
+      #393e46 24px,
+      transparent 24px,
+      transparent 67px,
+      #393e46 67px,
+      #393e46 69px,
+      transparent 69px
+    ),
+    linear-gradient(
+        225deg,
+        #090a0a 21px,
+        #393e46 22px,
+        #393e46 24px,
+        transparent 24px,
+        transparent 67px,
+        #393e46 67px,
+        #393e46 69px,
+        transparent 69px
+      )
+      0 64px;
+  background-color: #090a0a;
+  background-size: 64px 128px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: "Againts", sans-serif;
+  font-size: 5rem;
+  margin: 20px auto 0 auto;
+  color: #f0f5f9;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #f0f5f9;
+  text-decoration: none;
+}
+
+span {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px auto;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.nav-bar a {
+  flex: 1 1 auto;
+  padding: 0 0;
+  color: #f0f5f9;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500px;
+}
+
+a:hover {
+  color: #f0f5f9;
+  text-shadow: 2px 2px 1px #ff0000;
+  text-decoration: none;
+}
+
+.main-body {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.card {
+  background-color: #393e46;
+  flex: 1 1 auto;
+  margin: 30px 50px;
+}
+
+.card:hover {
+  width: 30rem;
+}
