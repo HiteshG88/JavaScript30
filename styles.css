@@ -35,11 +35,24 @@ body {
 }
 
 h1 {
-  font-family: "Againts", sans-serif;
-  font-size: 5rem;
-  margin: 30px auto 0 auto;
+  /* font-family: "Lacquer", cursive; */
+  font-family: "Major Mono Display", monospace;
+  font-size: 4rem;
+  margin: 20px auto 7px auto;
   color: #f0f5f9;
   text-decoration: none;
+}
+
+@media screen and (max-width: 601px) {
+  .intro {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  h1 {
+    font-size: 9vw;
+  }
 }
 
 a {
@@ -96,6 +109,10 @@ a:hover {
   transition: transform 0.3s;
 }
 
+.card h6 {
+  margin-top: 7px;
+}
+
 .card:hover {
   -ms-transform: scale(1.08);
   -webkit-transform: scale(1.08);
@@ -103,7 +120,7 @@ a:hover {
 }
 
 footer {
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 footer span {
