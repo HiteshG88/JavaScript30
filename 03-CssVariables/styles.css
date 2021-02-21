@@ -8,7 +8,10 @@ body {
   margin: 0;
   text-align: center;
   font-size: 25px;
+  color: #e5e5e5;
   background-color: #e5e5e5;
+  background-image: url("./img/background.jpg");
+  background-size: cover;
   font-weight: 100;
 }
 
@@ -26,4 +29,11 @@ img {
 
 input {
   width: 100px;
+}
+
+footer {
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: #efefef;
+  margin: 50px;
 }
