@@ -120,11 +120,11 @@ a:hover {
 }
 
 footer {
-  margin-top: 60px;
+  margin: 40px auto 10px auto;
 }
 
 footer span {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .navlinks {
