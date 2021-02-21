@@ -1,5 +1,5 @@
 html {
-  background: #018ded url(https://unsplash.it/1500/1000?image=881&blur=5);
+  background: url("./img/alexander-popov-UUJzCuHUfYI-unsplash.jpg");
   background-size: cover;
   font-family: "helvetica neue";
   text-align: center;
@@ -8,23 +8,38 @@ html {
 
 body {
   margin: 0;
-  /* background-color: #e0ece4; */
   text-align: center;
   display: flex;
   align-items: center;
   flex: 1;
   min-height: 100vh;
+  flex-direction: column;
+}
+
+.center {
+  width: 5%;
+  height: 15px;
+  background: black;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 48%;
+  right: 47.3%;
+  border-radius: 50%;
+  transform-origin: 50%;
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.03, 1.99, 1, 1);
 }
 
 .clock {
   width: 30rem;
   height: 30rem;
-  border: 12px solid #555555;
+  border: 12px solid black;
   margin: auto;
   border-radius: 50%;
   padding: 1rem;
   box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
     inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.514);
 }
 
 .clock-face {
@@ -48,18 +63,28 @@ body {
 
 .sec {
   height: 3px;
-  background-color: #ff4b5c;
+  background-color: #e63547;
 }
 
 .hr {
   height: 8px;
   width: 40%;
   margin-left: 10%;
-  background-color: #056674;
+  background-color: black;
 }
 
 .min {
   width: 48%;
-  background-color: #056674;
+  background-color: black;
   margin-left: 2%;
+}
+
+footer {
+  padding: 3px 9px;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: #efefef;
+  border: 1px solid rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.562);
+  margin: 50px;
 }
